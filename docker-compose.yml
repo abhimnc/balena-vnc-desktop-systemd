@@ -2,7 +2,7 @@ version: '2'
 volumes:
    my-persistent-storage:
 services:
-  vnc-app:
+  vnc-desktop:
     restart: always
     build: ./vnc-app
     ports:
